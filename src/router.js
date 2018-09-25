@@ -5,6 +5,9 @@ Vue.use(VueRouter);
 
 import ProductCategory from './pages/ProductCategory.vue'
 import ProductList from './pages/ProductList.vue'
+import ModifyPassword from './pages/ModifyPassword.vue'
+import ModifyUser from './pages/ModifyUser.vue'
+import OrderList from './pages/OrderList.vue'
 
 
 const router = new VueRouter({
@@ -16,6 +19,18 @@ const router = new VueRouter({
     {
       path: '/productlist',
       component: ProductList
+    },
+    {
+      path: '/modifypassword',
+      component: ModifyPassword
+    },
+    {
+      path: '/modifyuser',
+      component: ModifyUser
+    },
+    {
+      path: '/orderlist',
+      component: OrderList
     }
 
   ]

@@ -36,11 +36,11 @@ export default {
           arrs: [
             {
               name: "修改密码",
-              path: "/productcategory"
+              path: "/modifypassword"
             },
             {
               name: "资料修改",
-              path: "/productlist"
+              path: "/modifyuser"
             }
           ]
         },
@@ -49,7 +49,7 @@ export default {
           arrs: [
             {
               name: "订单列表（可选）",
-              path: "/productcategory"
+              path: "/orderlist"
             }
           ]
         }
